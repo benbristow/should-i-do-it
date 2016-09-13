@@ -1,0 +1,51 @@
+html, body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-top: 7.5%;
+  font-size: 18px;
+}
+
+.step {
+  font-size: 48px;
+  display:none;
+}
+
+@media(max-width: 500px) {
+  .step {
+    font-size: 18px;
+  }
+}
+
+.step#effort {
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.button:hover {
+  background: #000;
+  color: #FFF;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  width: 100%;
+}
+
+footer a {
+  color: #000;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Should I do it?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" media="screen" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Should I do it?</h1>
+    </header>
+
+    <div class="steps">
+      <div id="effort" class="step">
+        <h3>Is it low effort or high effort?</h3>
+        <div class="buttons">
+          <a href="#" class="button" onclick="selectEffort('low')">Low</a>
+          <a href="#" class="button" onclick="selectEffort('high')">High</a>
+        </div>
+      </div>
+
+      <div id="impact" class="step">
+        <h3>Is it low impact or high impact?</h3>
+        <div class="buttons">
+          <a href="#" class="button" onclick="selectImpact('low')">Low</a>
+          <a href="#" class="button" onclick="selectImpact('high')">High</a>
+        </div>
+      </div>
+
+      <div id="answer" class="step">
+        <h1 id="answer-response"></h1>
+        <div class="buttons">
+          <a href="#" class="button" onclick="startOver()">Something else?</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; <a href="https://www.benbristow.co.uk/">Ben Bristow</a> 2016
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
